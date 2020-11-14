@@ -6,7 +6,7 @@
 
 - \[TODO\] [OpenWrt](docs/openwrt.md)
 - \[TODO\] [SMS Receive](docs/sms-receive.md)
-- [Compatibility list of LTE modules](docs/modules.md)
+- [List of Available module](docs/modules.md)
 
 ## References
 

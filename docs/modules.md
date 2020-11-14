@@ -1,4 +1,6 @@
-# Compatibility list of LTE modules
+# Available module
+
+## LTE modules
 
 | Provider        | Connector   | Product Name              | Category  | Status |
 | --------------- | ----------- | ------------------------- | --------- | ------ |
@@ -16,3 +18,31 @@
 [ec25]: https://www.quectel.com/product/ec20r21minipcie.htm
 [em06]: https://www.quectel.com/cn/product/em06.htm
 [em7455]: https://www.sierrawireless.com/products-and-solutions/embedded-solutions/products/em7455/
+
+## USB Wi-Fi dongle
+
+| Company  | Name            | Standard            | Max speed | Driver    | Mode   | Status |
+| -------- | --------------- | ------------------- | --------- | --------- | ------ | ------ |
+| Broadcom | BCM43236        | Wi-Fi 4 (Dual band) | 300 Mbps  | brcmfmac  | STA    |        |
+| MediaTek | MT7601          | Wi-Fi 4             | 300 Mbps  | mt76x0    | STA    | TESTED |
+| MediaTek | MT7632          | Wi-Fi 5 + BT 4.0    | 866 Mbps  | mt76x0    | STA    |        |
+| MediaTek | RT2571          | Wi-Fi 4             | 150 Mbps  | rt2500usb | STA    |        |
+| MediaTek | RT2770          | Wi-Fi 4             | 300 Mbps  | rt2800usb | STA    |        |
+| MediaTek | RT3070          | Wi-Fi 4             | 150 Mbps  | rt2x00    | STA    |        |
+| MediaTek | RT3572          | Wi-Fi 4 (Dual band) | 300 Mbps  | rt2x00    | STA    |        |
+| MediaTek | RT5572          | Wi-Fi 4 (Dual band) | 300 Mbps  | rt2x00    | STA    |        |
+| Qualcomm | AR7010 + AR9280 | Wi-Fi 4 (Dual band) | 300 Mbps  | ar9170usb | STA/AP |        |
+| Qualcomm | AR7010 + AR9287 | Wi-Fi 4             | 150 Mbps  | ar9170usb | STA/AP |        |
+| Qualcomm | AR9271          | Wi-Fi 4             | 150 Mbps  | ar9170usb | STA/AP |        |
+| Realtek  | RTL8187         | Wi-Fi 4             | 150 Mbps  | rtl8xxxu  | STA/AP |        |
+| Realtek  | RTL8188         | Wi-Fi 4             | 150 Mbps  | rtl8xxxu  | STA/AP |        |
+| Realtek  | RTL8191         | Wi-Fi 4             | 300 Mbps  | rtl8xxxu  | STA/AP |        |
+| Realtek  | RTL8192         | Wi-Fi 4             | 300 Mbps  | rtl8xxxu  | STA/AP |        |
+| Realtek  | RTL8723         | Wi-Fi 4 + BT 4.0    | 150 Mbps  | rtl8xxxu  | STA/AP |        |
+| Realtek  | RTL8811         | Wi-Fi 5             | 866 Mbps  | rtl8xxxu  | STA    |        |
+| Realtek  | RTL8812         | Wi-Fi 5             | 866 Mbps  | rtl8xxxu  | STA    |        |
+| Realtek  | RTL8821         | Wi-Fi 5 + BT 4.2    | 866 Mbps  | rtl8xxxu  | STA    |        |
+
+see <https://wireless.wiki.kernel.org/en/users/drivers>
+
+see <https://elinux.org/RPi_USB_Wi-Fi_Adapters>
